@@ -400,10 +400,6 @@ function loadTrackInfo(elem) {
 }
 
 window.onload = () => {
-    if(localStorage.getItem('isVisited') !== 'visited') {
-        document.getElementById('cross-check-intro').style.display='flex';
-    }
-
     const timeElement = document.getElementById('time');
     const dateElement = document.getElementById('date');
     const greetingElement = document.getElementById('greeting');
