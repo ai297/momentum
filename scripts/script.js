@@ -616,11 +616,6 @@ window.onload = () => {
         }
     });
 
-    document.getElementById('start').addEventListener('click', () => {
-        document.getElementById('cross-check-intro').classList.add('hide');
-        localStorage.setItem( 'isVisited', 'visited');
-    });
-
     // RADIO
     const audioPlayer = document.getElementById('radio-player');
     const radioButton = document.getElementById('radio-button');
